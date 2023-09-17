@@ -1,5 +1,6 @@
 import './styles.css'
 import CarImg from '../../assets/car-card.png'
+import Button from '../Button';
 
 export default function Card(){
     return(
@@ -9,7 +10,7 @@ export default function Card(){
             <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nisi
             </p>
-            <div>Comprar</div>
+            <Button></Button>
         </div>
     );
 }
