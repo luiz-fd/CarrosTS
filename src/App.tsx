@@ -1,8 +1,9 @@
+import Catalog from "./Routes/Catalog";
 
 function App() {
   return (
     <>
-     <h1>Bom dia!</h1>
+     <Catalog/>
     </>
   )
 }
