@@ -3,6 +3,7 @@
 }
 
 .ct-catalog-main {
+    margin-top: 40px;
     padding: 0 10px;;
 }
 
@@ -11,8 +12,9 @@
 }
 
 .ct-catalog-cards-container {
-    border: 1px solid green;
-
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px , 1fr));
 }
 
 @media (min-width: 576px) {
