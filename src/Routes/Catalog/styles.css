@@ -1,0 +1,23 @@
+#ct-catalog-section {
+    padding: 40px;;
+}
+
+.ct-catalog-main {
+    padding: 0 10px;;
+}
+
+.ct-search-bar-container {
+    margin-bottom: 40px;
+    border: 1px solid blue;
+}
+
+.ct-catalog-cards-container {
+    border: 1px solid green;
+
+}
+
+@media (min-width: 576px) {
+    .ct-catalog-main {
+        padding: 0 20px;;
+    }
+}
